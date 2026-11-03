@@ -1,23 +1,14 @@
 # Kevin Zhu — Portfolio
 
-A responsive, dependency-free portfolio for Kevin Zhu, based on his supplied résumé and LinkedIn profile. The original Chicago banner was generated in Gemini.
+Personal website of Zhenyu (Kevin) Zhu, MS in Applied Data Science at the University of Chicago: data analytics, data engineering and applied AI.
 
-Live website: https://kev1nzzy.github.io
+Live site: https://kev1nzzy.github.io
 
 ## Files
 
-- `index.html`: site content and semantic structure
-- `style.css`: desktop/mobile layouts, focus styles and reduced-motion support
-- `banner.jpeg`: original Gemini banner, 3584 × 1184
+- `index.html`: site content
+- `style.css`: layout with light/dark themes, plus mobile and print styles
 - `mark.svg`: KZ favicon
-- `Kevin-Zhu-CV.docx`: supplied résumé
+- `Kevin-Zhu-Resume.pdf`: résumé
 
-## Preview
-
-Run `python3 -m http.server 8765` from this folder and open http://localhost:8765.
-
-## GitHub Pages
-
-In repository Settings → Pages, choose Deploy from a branch → main → / (root), then Save. No build dependencies or API keys are required.
-
-Project descriptions and metrics come from the supplied résumé. No project source repositories, live demos, or publication DOI were supplied, so none are invented. The diagram is conceptual. The skyline is AI-generated artwork.
+The site uses no frameworks and has no build step. To preview it locally, run `python3 -m http.server` in this folder.
